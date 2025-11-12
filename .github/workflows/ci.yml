@@ -27,7 +27,7 @@ env:
   # example xpkg.crossplane.io/crossplane/function-template-go. Note that
   # xpkg.crossplane.io is just an alias for ghcr.io, so we upload to ghcr.io but
   # this'll be pulled from xpkg.crossplane.io.
-  XPKG: ghcr.io/${{ github.repository}}
+  XPKG: ghcr.io/${{ github.repository }}
 
   # The package version to push. The default is 0.0.0-gitsha.
   XPKG_VERSION: ${{ inputs.version }}
@@ -149,7 +149,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.FUNCTION_XFABRIC_TOKEN }}
 
       # If a version wasn't explicitly passed as a workflow_dispatch input we
       # default to version v0.0.0-<git-commit-date>-<git-short-sha>, for example
