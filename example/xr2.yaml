@@ -1,0 +1,29 @@
+apiVersion: netclab.github.io/v1alpha1
+kind: XFabric
+metadata:
+  name: example-fabric
+spec:
+  networks:
+    - name: s1
+    - name: l1
+  nodes:
+    - name: spine1
+      type: srlinux
+      url: gnmi://spine1.default.svc.cluster.local:9339
+      interfaces:
+        - name: e1-49
+          network: s1
+    - name: leaf1
+      type: srlinux
+      url: gnmi://leaf1.default.svc.cluster.local:9339
+      interfaces:
+        - name: e1-49
+          network: s1
+        - name: e1-1
+          network: l1
+    - name: srv1
+      type: linux
+      url: ssh://srv1.default.svc.cluster.local:22
+      interfaces:
+        - name: eth1
+          network: l1

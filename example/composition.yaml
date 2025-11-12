@@ -1,0 +1,13 @@
+apiVersion: apiextensions.crossplane.io/v1
+kind: Composition
+metadata:
+  name: create-nodes
+spec:
+  compositeTypeRef:
+    apiVersion: netclab.github.io/v1alpha1
+    kind: XFabric
+  mode: Pipeline
+  pipeline:
+  - step: create-nodes
+    functionRef:
+      name: function-xfabric
