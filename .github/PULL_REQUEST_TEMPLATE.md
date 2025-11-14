@@ -1,3 +1,8 @@
+---
+name: PR
+about: PR
+labels: pr
+---
 <!--
 Thank you for helping to improve this Crossplane composition function!
 
