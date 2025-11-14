@@ -4,11 +4,9 @@ about: Help us diagnose and fix bugs in this Function
 labels: bug
 ---
 <!--
-Thank you for helping to improve Crossplane!
+Thank you for helping to improve this Crossplane composition function!
 
-Please be sure to search for open issues before raising a new one. We use issues
-for bug reports and feature requests. Please find us at https://slack.crossplane.io
-for questions, support, and discussion.
+Please be sure to search for open issues before raising a new one. We use issues for bug reports and feature requests.
 -->
 
 ### What happened?
