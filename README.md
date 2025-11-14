@@ -4,7 +4,7 @@ This function uses [Python][python], [Docker][docker], and the [Crossplane
 CLI][cli] to build functions.
 
 ```shell
-# Run the code in development mode, for crossplane beta render
+# Run the code in development mode, for crossplane render
 hatch run development
 
 # Lint and format the code - see pyproject.toml

@@ -1,9 +1,6 @@
 <!--
-Thank you for helping to improve Crossplane!
+Thank you for helping to improve this Crossplane composition function!
 
-Please read through https://git.io/fj2m9 if this is your first time opening a
-Crossplane pull request. Find us in https://slack.crossplane.io/messages/dev if
-you need any help contributing.
 -->
 
 ### Description of your changes
@@ -23,8 +20,4 @@ Fixes #
 
 I have:
 
-- [ ] Read and followed Crossplane's [contribution process].
 - [ ] Added or updated unit tests for my change.
-
-[contribution process]: https://git.io/fj2m9
-[docs]: https://docs.crossplane.io/contribute/contribute
